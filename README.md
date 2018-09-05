@@ -1,5 +1,5 @@
 # IIS SMTP Relay Script
-I created this as part of a recent project, there are many examples out there but none of them quite did what I wanted.  Kudos to those folk that I pulled various bits of the script from.
+I created this as part of a recent project, there are many examples out there but none of them quite did what I wanted, which was to import a list of IP Addresses from a CSV file into the Relay Allowed setting on the SMTP server.  Kudos to those folk that I pulled various bits of the script from.
 
 Things that I had to work around/issues with the script
 1: For some reason manipulating the arrays dynamically restulted in errors when trying to write back to the SMTP server object, this is one of the reasons the script writes out to a file then reads it back in again
